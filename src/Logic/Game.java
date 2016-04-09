@@ -18,7 +18,7 @@ public class Game {
     private List<System> distantSystems = new ArrayList<>();
 
     public Game() {
-        System homeWorld = new System(); // Sistema Inicial
+        System homeWorld = new System("Home World", 0, 1, 1, 0); // Sistema Inicial
 
         // separar as cartas
         List<System> sistemas = this.startSystemCards();
